@@ -36,6 +36,13 @@ pip3 install notebook
 TODO: Vänta in och hjälp folk här? 
 
 ## Skapa ett första Notebook ddokument
+Skapa och gå till en tom katalog:
+
+```sh
+mkdir ~/first-jupyter
+cd ~/first-jupyter
+```
+
 Starta Notebook Server med: ```jupyter notebook```. Borde resultera i output som:
 
 > Jupyter Notebook 6.2.0 is running at:
