@@ -15,3 +15,32 @@ Introduktion till Jupyter Notebook och hur python används med det verktyget.
 > Önska hur lång tid du vill ha för din tapas.
 
 Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hands-on kan ju tiden dra iväg (och hellre säga för lång tid och avsluta i förtid än tvärtom).
+
+## Vad är Jupyter Notebook?
+Jupyter Notebook kan beroende på kontext avse två saker:
+
+- En webapplikation implementerad i Python för att redigare dokument innehållandes livekod, interaktiva widgets, ekvationer, visualiseringar och generell markdown.
+- De dokument som redigeras av ovanstående webapplikation.
+
+För tydlighets skull kommer vi här använda begreppet `Notebook Server` för webapplikationen, och `Notebook dokument` för filer med det aktuella filformatet.
+
+## Installera Notebook Server?
+TODO: Ska vi göra det här? Kommer vara problem med folks python-miljöer. Men personligen tycker jag det är trevligt att börja i den änden.
+
+För att installera Notebook server, se till att ha Python 3 installerad och kör:
+
+```sh
+pip3 install notebook
+```
+
+TODO: Vänta in och hjälp folk här? 
+
+## Skapa ett första Notebook ddokument
+Starta Notebook Server med: ```jupyter notebook```. Borde resultera i output som:
+
+> Jupyter Notebook 6.2.0 is running at:
+> http://localhost:8888/?token=...
+
+
+
+
