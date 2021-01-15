@@ -74,7 +74,7 @@ För att skapa ett första Notebook dokument, välj `New`-knappen uppe till hög
 
 Du redigerar nu ett Notebook dokument. Välj `File` > `Save as`, skriv in `firstnotebook` som filnamn och tryck `Save`.
 
-Det resulterar i filen `firstnotebook.ipynb`, där `.ipynb` är file extensions för Jupyter Notebooks.
+Det resulterar i filen `firstnotebook.ipynb`, där `.ipynb` (från `IPython Notebook`) är file extensions för Jupyter Notebooks.
 
 ## Redigera ett Notebook dokument
 Editorn för en Notebook kan vara i två lägen:
