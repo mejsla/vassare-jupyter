@@ -95,8 +95,9 @@ I det initiala dokument vi skapat finns initialt en tom kodcell. Fyll i python k
 
 Notera följande:
 
-- Output från koden syns nedanför koden, i `Out`-sektionen.
-- Det visas en exekveringsordning (`[1]` här). När 
+- Medan koden körs markeras sektionen med `In [*]`.
+- Output från koden syns sedan nedanför koden, i `Out`-sektionen.
+- Det visas en exekveringsordning (`In/Out [1]` här, eftersom det var första koden som kördes). 
 - Hade vi modifierat globalt scope, genom att t.ex. definiera top level variables eller importera beroenden, hade dessa varit gjorts tillgängliga för senare exekveringar.
 
 En viktig aspekt är följande:
