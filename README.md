@@ -33,9 +33,9 @@ För att installera Notebook server, se till att ha Python 3 installerad och kö
 pip3 install notebook
 ```
 
-TODO: Vänta in och hjälp folk här? 
+TODO: Vänta in och hjälp folk här? Me
 
-## Skapa ett första Notebook ddokument
+## Skapa ett första Notebook dokument
 Skapa och gå till en tom katalog:
 
 ```sh
@@ -52,5 +52,9 @@ Om webläsaren inte öppnats automatiskt, gå till `http://localhost:8888`. Bord
 
 ![Screenshot på Notebook Server i tom katalog](bilder/tom-notebook-server.png)
 
+För att skapa ett första Notebook dokument, välj `New`-knappen uppe till höger, och sedan `Python 3` alternativet i den meny som fälls ut.
 
+Du redigerar nu ett Notebook dokument. Välj `File` > `Save as`, skriv in `firstnotebook` som filnamn och tryck `Save`.
+
+Det resulterar i filen `firstnotebook.ipynb`.
 
