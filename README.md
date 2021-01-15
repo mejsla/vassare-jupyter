@@ -85,10 +85,21 @@ Ett Notebook dokument består av celler, som kan vara av två typer:
 - Celler innehållandes Markdown, som kan användas för formatterad text, bilder, videos och annat - i princip godtycklig HTML.
 - Celler inehållandes exekverbar python kod, där output (som kan vara exempelvis text, tabeller, bilder, grafer, ...) från koden hamnar precis under. 
 
-I det initiala dokument vi skapat finns initialt en tom kodcell. Fyll i python koden `2+1` i denna och tryck på `Play`-knappen (eller använd keyboard shortcut `Ctrl+Return`) för att exekvera koden. Skärmen bör nu se ut som:
+I det initiala dokument vi skapat finns initialt en tom kodcell. Fyll i python koden `2+1` i denna och tryck på `Play`-knappen (eller använd keyboard shortcut -  `Shift+Enter` på Windows+Linux, `Ctrl+Enter` på macOS) för att exekvera koden. Skärmen bör nu se ut som:
 
 ![Ett dokument där 2+1 precis körts](bilder/tva-plus-ett.png).
 
+Notera följande:
+
+- Output från koden syns nedanför koden, i `Out`-sektionen.
+- Det visas en exekveringsordning (`[1]` här). När 
+- Hade vi modifierat globalt scope, genom att t.ex. definiera top level variables eller importera beroenden, hade dessa varit gjorts tillgängliga för senare exekveringar.
+
+En viktig aspekt är följande:
+
+- Exekveringsordning spelar roll, och är inte nödvändigtvis i ordningen uppifrån och ner.
+- Vid experiment hoppar man ofta runt.
+- Bra praxis att avsluta att med kontroll att det går att köra i ordningen uppifrån och ner.
 
 ## Redigera ett Notebook dokument
 Editorn för en Notebook kan vara i två lägen:
