@@ -78,7 +78,7 @@ För att skapa ett första Notebook dokument, välj `New`-knappen uppe till hög
 
 Välj `File` > `Save as`, skriv in `firstnotebook` som filnamn och tryck `Save`.
 
-Det resulterar i filen `firstnotebook.ipynb`, där `.ipynb` (från `IPython Notebook`) är file extensions för Jupyter Notebooks.
+Det resulterar i filen `firstnotebook.ipynb`, där `.ipynb` (från `IPython Notebook`) är file extensions för Jupyter Notebooks. Filformatet använder JSON, men det är mer av en implementationsdetalj än något de flesta använder sig av.
 
 ## Celler
 Ett Notebook dokument består av celler, som kan vara av två typer:
