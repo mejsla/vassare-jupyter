@@ -31,7 +31,8 @@ Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hand
 - Något om ML
 - Blandade tips/best practice?
 - Något om library för visualisering/grafer
-- Hands on: Applicera något av ovanstående?
+- Hands on: Applicera något av ovanstående
+- Något om Notebooks för fler språk än Python. Vad är en jupyter kernel?
 - Vad är projekt Jupyter och vilka projekt rymmer den (JupyterLab, Jupyter Notebook, Voilà
 
 ## Vad är Jupyter Notebook?
@@ -77,6 +78,14 @@ För att skapa ett första Notebook dokument, välj `New`-knappen uppe till hög
 Välj `File` > `Save as`, skriv in `firstnotebook` som filnamn och tryck `Save`.
 
 Det resulterar i filen `firstnotebook.ipynb`, där `.ipynb` (från `IPython Notebook`) är file extensions för Jupyter Notebooks.
+
+## Celler
+Ett Notebook dokument består av celler, som kan vara av två typer:
+
+- Celler innehållandes Markdown, som kan användas för formatterad text, bilder, videos och annat - i princip godtycklig HTML.
+- Celler inehållandes exekverbar python kod, där output (som kan vara exempelvis text, tabeller, bilder, grafer, ...) från koden hamnar precis under. 
+
+I det initiala dokument vi skapat finns initialt en cell.
 
 ## Redigera ett Notebook dokument
 Editorn för en Notebook kan vara i två lägen:
