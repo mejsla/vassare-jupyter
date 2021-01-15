@@ -16,6 +16,24 @@ Introduktion till Jupyter Notebook och hur python används med det verktyget.
 
 Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hands-on kan ju tiden dra iväg (och hellre säga för lång tid och avsluta i förtid än tvärtom).
 
+## Förslag på punkter
+
+- Vad är Jupyter Notebook
+- Hands on: Installera och skapa ett första Notebook lokalt
+- Hands on: Kom åt en hosted Notebook Server
+- Genomgång av grundläggande editor funktionalitet
+- Hands on: Skapa ett enkelt dokument
+- Visa hur notebooks kan versionshanteras och inbyggd viewer i GitHub
+- Lite mer advancerade funktioner
+- Hands on: Något lite mer advancerat?
+- Något om Numpy
+- Något om Pandas
+- Något om ML
+- Blandade tips/best practice?
+- Något om library för visualisering/grafer
+- Hands on: Applicera något av ovanstående?
+- Vad är projekt Jupyter och vilka projekt rymmer den (JupyterLab, Jupyter Notebook, Voilà
+
 ## Vad är Jupyter Notebook?
 Jupyter Notebook kan beroende på kontext avse två saker:
 
@@ -56,5 +74,7 @@ För att skapa ett första Notebook dokument, välj `New`-knappen uppe till hög
 
 Du redigerar nu ett Notebook dokument. Välj `File` > `Save as`, skriv in `firstnotebook` som filnamn och tryck `Save`.
 
-Det resulterar i filen `firstnotebook.ipynb`.
+Det resulterar i filen `firstnotebook.ipynb`, där `.ipynb` är file extensions för Jupyter Notebooks.
 
+## Redigera ett Notebook dokument
+Editorn för en Notebook är modal 
