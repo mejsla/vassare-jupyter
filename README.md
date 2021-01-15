@@ -70,9 +70,11 @@ Om webläsaren inte öppnats automatiskt, gå till `http://localhost:8888`. Bord
 
 ![Screenshot på Notebook Server i tom katalog](bilder/tom-notebook-server.png)
 
-För att skapa ett första Notebook dokument, välj `New`-knappen uppe till höger, och sedan `Python 3` alternativet i den meny som fälls ut.
+För att skapa ett första Notebook dokument, välj `New`-knappen uppe till höger, och sedan `Python 3` alternativet i den meny som fälls ut. Du redigerar nu ett Notebook dokument. Och skärmen bör se ut som nedan:
 
-Du redigerar nu ett Notebook dokument. Välj `File` > `Save as`, skriv in `firstnotebook` som filnamn och tryck `Save`.
+![Screenshot på nytt dokument](bilder/nytt-dokument.png)
+
+Välj `File` > `Save as`, skriv in `firstnotebook` som filnamn och tryck `Save`.
 
 Det resulterar i filen `firstnotebook.ipynb`, där `.ipynb` (från `IPython Notebook`) är file extensions för Jupyter Notebooks.
 
