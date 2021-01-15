@@ -36,6 +36,9 @@ Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hand
 - Vad är projekt Jupyter och vilka projekt rymmer den (JupyterLab, Jupyter Notebook, jupyterhub, Voilà)
 - Presentera kommande studiecirkel.
 
+## Resurser
+- https://www.dataquest.io/blog/jupyter-notebook-tutorial/
+
 ## Vad är Jupyter Notebook?
 Jupyter Notebook kan beroende på kontext avse två saker:
 
