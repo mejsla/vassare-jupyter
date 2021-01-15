@@ -33,7 +33,8 @@ Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hand
 - Något om library för visualisering/grafer
 - Hands on: Applicera något av ovanstående
 - Något om Notebooks för fler språk än Python. Vad är en jupyter kernel?
-- Vad är projekt Jupyter och vilka projekt rymmer den (JupyterLab, Jupyter Notebook, Voilà
+- Vad är projekt Jupyter och vilka projekt rymmer den (JupyterLab, Jupyter Notebook, jupyterhub, Voilà)
+- Presentera kommande studiecirkel.
 
 ## Vad är Jupyter Notebook?
 Jupyter Notebook kan beroende på kontext avse två saker:
