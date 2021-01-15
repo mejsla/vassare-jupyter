@@ -77,4 +77,13 @@ Du redigerar nu ett Notebook dokument. Välj `File` > `Save as`, skriv in `first
 Det resulterar i filen `firstnotebook.ipynb`, där `.ipynb` är file extensions för Jupyter Notebooks.
 
 ## Redigera ett Notebook dokument
-Editorn för en Notebook är modal 
+Editorn för en Notebook kan vara i två lägen:
+
+- `Edit mode`, "textredigeringsläge", där text redigeras direkt.
+- `Command mode`, där tangenter leder till kommandon.
+  - `H` för att visa `Help`, lista över kommandon (stäng med `Escape`).
+  - `C` för att kopiera markerad cell.
+  - `V` för att klistra in kopierad cell.
+  - ..
+ 
+ Likt vim editorn.
