@@ -47,8 +47,8 @@ Det resulterar i filen `firstnotebook.ipynb`, där `.ipynb` (från `IPython Note
 ## Celler
 Ett Notebook dokument består av celler, som kan vara av två typer:
 
-- Celler innehållandes Markdown, som kan användas för formatterad text, bilder, videos och annat - i princip godtycklig HTML.
-- Celler inehållandes exekverbar python kod, där output (som kan vara exempelvis text, tabeller, bilder, grafer, ...) från koden hamnar precis under. 
+- Celler innehållandes Markdown, som kan användas för formatterad text, bilder, videos och annat - i princip godtycklig HTML. 
+- Celler inehållandes exekverbar python kod, där output (som kan vara exempelvis text, tabeller, bilder, grafer, ...) från koden hamnar precis under. Man kan se skillnad på markdown och kod-celler genom att de för kod innehåller labels (`In [...]` och `Out [...]` till vänster), och markdown inte gör det.
 
 I det initiala dokument vi skapat finns initialt en tom kodcell. Fyll i python koden `2+1` i denna och tryck på `Play`-knappen (eller använd keyboard shortcut -  `Shift+Enter` på Windows+Linux, `Ctrl+Enter` på macOS) för att exekvera koden. Skärmen bör nu se ut som:
 
@@ -72,11 +72,6 @@ Editorn för en Notebook kan vara i två lägen:
 
 - `Edit mode`, "textredigeringsläge", där text redigeras direkt.
 - `Command mode`, där tangenter leder till kommandon.
-  - `H` för att visa `Help`, lista över kommandon (stäng med `Escape`).
-  - `C` för att kopiera markerad cell.
-  - `V` för att klistra in kopierad cell.
-  - `D,D` (tangenten `D` två gånger) för att radera markerad cell.
-  - ..
  
  Likt vim editorn. Vilket läge som editorn är i markeras på två sätt:
  
@@ -86,3 +81,35 @@ Editorn för en Notebook kan vara i två lägen:
 ![Grön cell i Edit mode](bilder/gron-vid-edit.png)
 ![Blå cell i Command mode](bilder/bla-vid-command.png)
 
+## Command palette
+En trevlig funktionalitet för att lära sig editorn är Command palette - en dialog som listar alla kommandon, där fritext kan användas för att söka och sedan exekvera ett kommando. Lägg märke till att keyboard shortcuts visas i denna dialog, vilket gör det till bra verktyg för att lära sig keyboard shortcuts.
+
+Aktivera detta genom att trycka på Keyboard-ikonen i Toolbar eller använda `Ctrl+Shift+P` / `Cmd+Shift+P`.
+
+## Några keyboard shortcuts
+I Command mode:
+
+- Växla till Edit läge genom Enter (och sedan tillbaks till Command med Escape).
+- `H` för att visa `Help`, lista över kommandon (stäng med `Escape`).
+- Flytta fokus till nästa eller föregående cell med Up och Ner-piltangenterna (`J` och `K` fungerar också).
+- `M` för att göra om kodcell till markdown, och `Y` för det omvända.
+- `D+D` (`D` två gånger) för att ta bort cell.
+- `Z` för att göra Undo efter att ha tagit bort cell av misstag.
+- Håll inne `Shift` och använda piltangenter (eller J/K), eller mus, för att markera flera celler. `Shift+M` kan sen användas för att slå samman flera celler till en markdown-cell.
+
+## Snabb intro till markdown?
+Visa snabbt grundläggande markdown (heading, lista, kod, bild), för de som inte är bekväma med markdown, och visar också hur markdown kan redigeras i jupyter?
+
+- Precis som `Shift+Enter` kör en kod-cell, så "kör" det en markdown cell genom att gå från redigeringsläge till renderat läge. Tryck `Enter` eller dubbelklicka i cellen för att redigera cellen igen.
+  - Vid initial laddning av dokument kommer alla markdown-celler vara i renderat läge - dokumentet kommer inte komma ihåg vilka celler som är i Edit mode.
+  
+## Kernel
+"Kärnan" i ett dokument innehåller state för dokumentet (deklarerade variabler och funktioner, importerade bibliotek). Gemensamt hela dokumentet, inte scope:at till celler.
+
+Menyn `Kernel` har några användbare alternativ:
+
+- `Interrupt` för att avbryta kod som körs.
+  - Testa att lägga in `import time; time.sleep(1000)` och kör (`Shift+Enter`). Lägg märke till att den aktiva cellen markeras med `In [*]` medan den körs. Kärnan är nu upptagen, och andra kodceller som exekveras måste vänta. `Kernel > Interrupt` räddar den här situationen.
+- `Restart` för att återställa kärnan till initialt läge (ta bort alla deklarerade variabler och funktioner osv).
+  - Illustrera genom att ha en cell med y=10, och en andra med bara y.
+  
