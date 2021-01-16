@@ -34,6 +34,8 @@ Om webläsaren inte öppnats automatiskt, gå till `http://localhost:8888`. Bord
 
 ![Screenshot på Notebook Server i tom katalog](bilder/tom-notebook-server.png)
 
+Det här är filhanterar-delen av Jupyter, även kallad Jupyter Dashboard. Eftersom vi startat servern i en tom katalog listas inga filer.
+
 För att skapa ett första Notebook dokument, välj `New`-knappen uppe till höger, och sedan `Python 3` alternativet i den meny som fälls ut. Du redigerar nu ett Notebook dokument. Och skärmen bör se ut som nedan:
 
 ![Screenshot på nytt dokument](bilder/nytt-dokument.png)
@@ -65,7 +67,7 @@ En viktig aspekt är följande:
 - Vid experiment hoppar man ofta runt.
 - Bra praxis att avsluta att med kontroll att det går att köra i ordningen uppifrån och ner.
 
-## Redigera ett Notebook dokument
+## Edit och Command mode
 Editorn för en Notebook kan vara i två lägen:
 
 - `Edit mode`, "textredigeringsläge", där text redigeras direkt.
@@ -76,4 +78,11 @@ Editorn för en Notebook kan vara i två lägen:
   - `D,D` (tangenten `D` två gånger) för att radera markerad cell.
   - ..
  
- Likt vim editorn.
+ Likt vim editorn. Vilket läge som editorn är i markeras på två sätt:
+ 
+ - Genom en ikon som ser ut som en penna.
+![Penn-ikonen som indikerar edit mode](bilder/penna-i-edit.png)
+- Genom att den markerade cellen är _grön_ vid edit, och _blå_ i command mode.
+![Grön cell i Edit mode](bilder/gron-vid-edit.png)
+![Blå cell i Command mode](bilder/bla-vid-command.png)
+
