@@ -29,6 +29,7 @@ Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hand
 - Visa hur notebooks kan versionshanteras och inbyggd viewer i GitHub (och delning via Gists)
   - Hands on - se till att alla deltagare lyckats dela en basic notebook via Gist och be om paste:a URL?
 - Lite mer advancerade funktioner
+- Jupyter Notebook Extensions? Eventuellt bara nämna utan att visa?
 - Hands on: Något lite mer advancerat?
 - Något om Numpy
 - Något om Pandas
