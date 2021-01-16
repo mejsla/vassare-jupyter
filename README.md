@@ -19,11 +19,10 @@ Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hand
 ## Förslag på punkter
 
 - [Introduktion till Python](Python.ipynb)
-- Vad är Jupyter Notebook
-- Hands on: Installera och skapa ett första Notebook lokalt
-- Hands on: Kom åt en hosted Notebook Server
-- Genomgång av grundläggande editor funktionalitet
-- Hands on: Skapa ett enkelt dokument
+  - Dela notebook och 
+- [Introduktion till Jupyter](INTRODUKTION.md)
+  - Vad är Jupyter Server och Notebook?
+  - Vi skapar dokument från scratch, lite blandat hands on och genomgång.
 - Visa hur notebooks kan versionshanteras och inbyggd viewer i GitHub
 - Lite mer advancerade funktioner
 - Hands on: Något lite mer advancerat?
