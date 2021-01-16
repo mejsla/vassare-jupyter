@@ -19,9 +19,12 @@ Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hand
 ## Förslag på punkter
 
 - [Introduktion till Python](Python.ipynb)
-  - Dela notebook och 
+  - Ska installation av python vara del av detta (isf, ta höjd i tid för hjälp&felsökning), eller ska vi ta det som förkunskapskrav (inbjudan inte skickad än, bör göras under måndag)?
+  - Dela notebook och låta folk klicka sig genom exampel, och kanske instruera att göra någon ändring för att visa interaktivitet och uppmuntra experimentlusta vilket ju notebooks är bra för?
 - [Introduktion till Jupyter](INTRODUKTION.md)
   - Vad är Jupyter Server och Notebook?
+  - Vi skärmdelar och deltagare får följa med.
+  - Ta höjd i tid för problem med installation?
   - Vi skapar dokument från scratch, lite blandat hands on och genomgång.
 - Visa hur notebooks kan versionshanteras och inbyggd viewer i GitHub
 - Lite mer advancerade funktioner
