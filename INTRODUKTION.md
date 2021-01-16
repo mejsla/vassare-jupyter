@@ -130,3 +130,23 @@ Via `File` > `Download as` menyn kan dokumentet exporteras.
   - Beroende på publik kan det vara ett bättre alternativ att dela med sig av notebook direkt (vi kommer visa det inbyggda stödet i GitHub och Gists).
 - `Notebook (.ipynb)` - laddar ner själva notebook-dokumentet.
 - `Python (.py)` - slår ihop alla celler till en fel, med markdown-celler som kommentarer, och kodceller som kod i ordningen uppifrån och ner.
+
+## Magic commands
+Magic commands i Jupyter tillåter en del spännande och användbar funktionalitet.
+
+Det finns två typer av magiska kommandon:
+- `Line magics` som påverkar en rad i en kodcell.
+- `Cell magics` som påverkar en hel kodcell.
+
+För att lista alla magics (både line och cell), skriv `%lsmagic` (självt ett line magic) i en cell och kör denna. Alla tillgängliga magic kommandon listas, bör se ut något som:
+
+```
+Available line magics:
+%alias  %alias_magic  %autoawait  %autocall  %automagic  %autosave  %bookmark  %cat  %cd  %clear  %colors  %conda  %config  %connect_info  %cp  %debug  %dhist  %dirs  %doctest_mode  %ed  %edit  %env  %gui  %hist  %history  %killbgscripts  %ldir  %less  %lf  %lk  %ll  %load  %load_ext  %loadpy  %logoff  %logon  %logstart  %logstate  %logstop  %ls  %lsmagic  %lx  %macro  %magic  %man  %matplotlib  %mkdir  %more  %mv  %notebook  %page  %pastebin  %pdb  %pdef  %pdoc  %pfile  %pinfo  %pinfo2  %pip  %popd  %pprint  %precision  %prun  %psearch  %psource  %pushd  %pwd  %pycat  %pylab  %qtconsole  %quickref  %recall  %rehashx  %reload_ext  %rep  %rerun  %reset  %reset_selective  %rm  %rmdir  %run  %save  %sc  %set_env  %store  %sx  %system  %tb  %time  %timeit  %unalias  %unload_ext  %who  %who_ls  %whos  %xdel  %xmode
+
+Available cell magics:
+%%!  %%HTML  %%SVG  %%bash  %%capture  %%debug  %%file  %%html  %%javascript  %%js  %%latex  %%markdown  %%perl  %%prun  %%pypy  %%python  %%python2  %%python3  %%ruby  %%script  %%sh  %%svg  %%sx  %%system  %%time  %%timeit  %%writefile
+
+Automagic is ON, % prefix IS NOT needed for line magics.
+```
+
