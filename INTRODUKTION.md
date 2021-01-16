@@ -135,8 +135,8 @@ Via `File` > `Download as` menyn kan dokumentet exporteras.
 Magic commands i Jupyter tillåter en del spännande och användbar funktionalitet.
 
 Det finns två typer av magiska kommandon:
-- `Line magics` som påverkar en rad i en kodcell.
-- `Cell magics` som påverkar en hel kodcell.
+- `Line magics` som påverkar en rad i en kodcell och startar med `%` (ett procenttecken).
+- `Cell magics` som påverkar en hel kodcell och startar med `%%` (två procenttecken).
 
 För att lista alla magics (både line och cell), skriv `%lsmagic` (självt ett line magic) i en cell och kör denna. Alla tillgängliga magic kommandon listas, bör se ut något som:
 
@@ -150,3 +150,28 @@ Available cell magics:
 Automagic is ON, % prefix IS NOT needed for line magics.
 ```
 
+Exempel på några användbara magics:
+
+- `%pip` - kör `pip`, pakethanteraren i python. Exempel (som bör ge `<Response [200]>` i output):
+
+```python
+%pip install requests
+import requests
+requests.get('https://example.com')
+```
+
+- `%%javascript` - kör cellen som javascript-kod i browsen. Exempel:
+
+```
+%%javascript
+alert(navigator.userAgent)
+```
+
+- `%time` - skriv ut hur lång tid en rad tar att köra. Exempel:
+
+```
+import random
+L = [random.random() for i in range(100000)]
+print("sorting an unsorted list:")
+%time L.sort()
+```
