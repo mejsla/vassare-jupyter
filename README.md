@@ -18,6 +18,7 @@ Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hand
 
 ## Förslag på punkter
 
+- [Introduktion till Python](Python.ipynb)
 - Vad är Jupyter Notebook
 - Hands on: Installera och skapa ett första Notebook lokalt
 - Hands on: Kom åt en hosted Notebook Server
