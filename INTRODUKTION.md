@@ -7,15 +7,13 @@ Jupyter Notebook kan beroende på kontext avse två saker:
 För tydlighets skull kommer vi här använda begreppet `Notebook Server` för webapplikationen, och `Notebook dokument` för filer med det aktuella filformatet.
 
 ## Installera Notebook Server?
-TODO: Ska vi göra det här? Kommer vara problem med folks python-miljöer. Men personligen tycker jag det är trevligt att börja i den änden.
-
 För att installera Notebook server, se till att ha Python 3 installerad och kör:
 
 ```sh
 pip3 install notebook
 ```
 
-TODO: Vänta in och hjälp folk här? Me
+- Vänta in och hjälp folk här? Vad ska vi ha som backup, dela länk till notebook server
 
 ## Skapa ett första Notebook dokument
 Skapa och gå till en tom katalog:
@@ -111,5 +109,17 @@ Menyn `Kernel` har några användbare alternativ:
 - `Interrupt` för att avbryta kod som körs.
   - Testa att lägga in `import time; time.sleep(1000)` och kör (`Shift+Enter`). Lägg märke till att den aktiva cellen markeras med `In [*]` medan den körs. Kärnan är nu upptagen, och andra kodceller som exekveras måste vänta. `Kernel > Interrupt` räddar den här situationen.
 - `Restart` för att återställa kärnan till initialt läge (ta bort alla deklarerade variabler och funktioner osv).
-  - Illustrera genom att ha en cell med y=10, och en andra med bara y.
+  - Illustrera genom att ha en cell med `y=10`, och en andra med bara `y`. Köra dessa i följd och visa att `y`-cellen ger `10` som output. Gör en `Restart`, och kör om `y`-cellen. Vi får nu fel för att `y` inte är definierad.
+- `Restart & Clear Output` - som `Restart`, men tar dessutom bort alla output-delar.
+  - Visa.
+- `Restart & Run All` - som ovanstående `Restart & Clear Output`, men kör dessutom alla kodceller en efter en 
+  - Kör några celler, och sedan `Restart & Run All` för att visa vad som händer.
+  - Bra för att kontrollera att dokumentet fungerar som förväntat och är reproducerbart, och inte beror på kod som inte längre finns (eller en exekveringsordning av celler som inte är från toppen till botten).
+  
+## Spara dokument
+- Av default sparas dokument var 120:e sekund.
+- `Ctrl+S` / `Cmd+S` för att spara explicit.
+- Titta på `Last Checkpoint: a few seconds ago` raden högst upp för bekräftelse.
+- `File` > `Revert to Checkpoint` för att gå tillbaks till sparad version.
+- När dokument blir större, överväg versionshantering (git).
   
