@@ -160,7 +160,7 @@ import requests
 requests.get('https://example.com')
 ```
 
-- `%%javascript` - kör cellen som javascript-kod i browsen. Exempel:
+- `%%javascript` - kör cellen som javascript-kod i browsen (observera `%%`, det här är alltså cell magic, inte line magic). Exempel:
 
 ```
 %%javascript
