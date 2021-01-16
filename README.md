@@ -26,7 +26,7 @@ Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hand
   - Vi skärmdelar och deltagare får följa med.
   - Ta höjd i tid för problem med installation?
   - Vi skapar dokument från scratch, lite blandat hands on och genomgång.
-- Visa hur notebooks kan versionshanteras och inbyggd viewer i GitHub
+- Visa hur notebooks kan versionshanteras och inbyggd viewer i GitHub (och delning via Gists)
 - Lite mer advancerade funktioner
 - Hands on: Något lite mer advancerat?
 - Något om Numpy
