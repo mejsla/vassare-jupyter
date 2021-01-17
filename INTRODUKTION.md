@@ -123,17 +123,28 @@ Menyn `Kernel` har några användbare alternativ:
 - `File` > `Revert to Checkpoint` för att gå tillbaks till sparad version.
 - När dokument blir större, överväg versionshantering (git).
 
-## Delning av dokument via GitHub och Gists
-Visa hur dokument kan delas via 
-  
 ## Export av dokument
 Via `File` > `Download as` menyn kan dokumentet exporteras.
 
 - `AsciiDoc`/`HTML`/`LaTex`/`Markdown`/`PDF`/`reStructuredText`/`Reveal.js slides` för statisk export.
-  - Beroende på publik kan det vara ett bättre alternativ att dela med sig av notebook direkt (vi kommer visa det inbyggda stödet i GitHub och Gists).
+  - Beroende på publik kan det vara ett bättre alternativ att dela med sig av notebook direkt (vi kommer visa det inbyggda stödet i GitHub och Gists strax).
 - `Notebook (.ipynb)` - laddar ner själva notebook-dokumentet.
 - `Python (.py)` - slår ihop alla celler till en fel, med markdown-celler som kommentarer, och kodceller som kod i ordningen uppifrån och ner.
 
+## Delning av dokument via GitHub och Gists
+Gist är "snabb delning av kodsnippets" via en tjänst hos GitHub på https://gist.github.com/.
+
+Visa hur read-only dokument kan delas snabbt via Gist:
+
+- Använd `File` > `Download as` > `Notebook (.ipynb)` för att få en `.pynb` fil nedladdad.
+- Gå till gist.github.com
+- Dra filen till textarean - filnamn och filinnehåll populeras automatiskt.
+- Spara och titta på skapada gist:en.
+- Obs att det är versionshanterat och kan uppdateras som vanligt.
+
+Nämn att det här läget finns också för `.pynb` filer incheckade i ett git-repo som finns på github.
+
+Nämn att `.ipynb_checkpoints` filen bör läggas i `.gitignore` när man jobbar med notebooks och git.
 
 ## Magic commands
 Magic commands i Jupyter tillåter en del spännande och användbar funktionalitet.
