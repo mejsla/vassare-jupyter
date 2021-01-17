@@ -129,7 +129,7 @@ Via `File` > `Download as` menyn kan dokumentet exporteras.
 - `AsciiDoc`/`HTML`/`LaTex`/`Markdown`/`PDF`/`reStructuredText`/`Reveal.js slides` för statisk export.
   - Beroende på publik kan det vara ett bättre alternativ att dela med sig av notebook direkt (vi kommer visa det inbyggda stödet i GitHub och Gists strax).
 - `Notebook (.ipynb)` - laddar ner själva notebook-dokumentet.
-- `Python (.py)` - slår ihop alla celler till en fel, med markdown-celler som kommentarer, och kodceller som kod i ordningen uppifrån och ner.
+- `Python (.py)` - slår ihop alla celler till en hel, med markdown-celler som kommentarer, och kodceller som kod i ordningen uppifrån och ner.
 
 ## Delning av dokument via GitHub och Gists
 Gist är "snabb delning av kodsnippets" via en tjänst hos GitHub på https://gist.github.com/.
