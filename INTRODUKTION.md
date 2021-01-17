@@ -122,6 +122,9 @@ Menyn `Kernel` har några användbare alternativ:
 - Titta på `Last Checkpoint: a few seconds ago` raden högst upp för bekräftelse.
 - `File` > `Revert to Checkpoint` för att gå tillbaks till sparad version.
 - När dokument blir större, överväg versionshantering (git).
+
+## Delning av dokument via GitHub och Gists
+Visa hur dokument kan delas via 
   
 ## Export av dokument
 Via `File` > `Download as` menyn kan dokumentet exporteras.
@@ -130,6 +133,7 @@ Via `File` > `Download as` menyn kan dokumentet exporteras.
   - Beroende på publik kan det vara ett bättre alternativ att dela med sig av notebook direkt (vi kommer visa det inbyggda stödet i GitHub och Gists).
 - `Notebook (.ipynb)` - laddar ner själva notebook-dokumentet.
 - `Python (.py)` - slår ihop alla celler till en fel, med markdown-celler som kommentarer, och kodceller som kod i ordningen uppifrån och ner.
+
 
 ## Magic commands
 Magic commands i Jupyter tillåter en del spännande och användbar funktionalitet.
@@ -160,7 +164,7 @@ import requests
 requests.get('https://example.com')
 ```
 
-- `%%javascript` - kör cellen som javascript-kod i browsen (observera `%%`, det här är alltså cell magic, inte line magic). Exempel:
+- `%%javascript` - kör cellen som javascript-kod i browsen. Exempel:
 
 ```
 %%javascript
@@ -174,4 +178,42 @@ import random
 L = [random.random() for i in range(100000)]
 print("sorting an unsorted list:")
 %time L.sort()
+```
+
+- `%html` - inkludera godtycklig HTML. Exempel:
+
+```
+%%html
+<a href="example.com#>Link</a>
+```
+
+- `%latex` - Inkludera LaTeX för formler. Exempel:
+
+```
+%%latex
+Some important equations are $E = mc^2$ and $e^{i pi} = -1$
+```
+
+- `%pdb` - toggla om `pdb`, pythons debugger ska användas. Exempel:
+
+```
+map = {0: 10, 1: 20, 3: 30}
+%pdb
+# När pdb används kommer vi få en pdb-prompt vid exception, där vi kan inspektera variable som i:
+for i in range(0,3): print(map[i])
+```
+
+## Shell kommandon
+Som i generell Python kan externa program eller kommandon köras via [subprocess](https://docs.python.org/3/library/subprocess.html). Men det finns en genväg som är smidig, genom att inleda rader med utropstecken:
+
+```
+!ls -lha /
+!uname -a
+```
+
+Python-variabler kan användas genom att använda ett dollartecken:
+
+```
+message = "Hello, world"
+!echo $message
 ```
