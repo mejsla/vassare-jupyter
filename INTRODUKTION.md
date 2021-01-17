@@ -6,7 +6,7 @@ Jupyter Notebook kan beroende på kontext avse två saker:
 
 För tydlighets skull kommer vi här använda begreppet `Notebook Server` för webapplikationen, och `Notebook dokument` för filer med det aktuella filformatet.
 
-## Installera Notebook Server?
+## Installera Notebook Server
 För att installera Notebook server, se till att ha Python 3 installerad och kör:
 
 ```sh
@@ -95,7 +95,7 @@ I Command mode:
 - `Z` för att göra Undo efter att ha tagit bort cell av misstag.
 - Håll inne `Shift` och använda piltangenter (eller J/K), eller mus, för att markera flera celler. `Shift+M` kan sen användas för att slå samman flera celler till en markdown-cell.
 
-## Snabb intro till markdown?
+## Snabb intro till markdown
 Visa snabbt grundläggande markdown (heading, lista, kod, bild), för de som inte är bekväma med markdown, och visar också hur markdown kan redigeras i jupyter?
 
 - Precis som `Shift+Enter` kör en kod-cell, så "kör" det en markdown cell genom att gå från redigeringsläge till renderat läge. Tryck `Enter` eller dubbelklicka i cellen för att redigera cellen igen.
