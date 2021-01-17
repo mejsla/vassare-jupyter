@@ -26,8 +26,9 @@ Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hand
   - Vi skärmdelar och deltagare får följa med.
   - Ta höjd i tid för problem med installation?
   - Vi skapar dokument från scratch, lite blandat hands on och genomgång.
-- Visa hur notebooks kan versionshanteras och inbyggd viewer i GitHub (och delning via Gists)
-  - Hands on - se till att alla deltagare lyckats dela en basic notebook via Gist och be om paste:a URL?
+  - Inbyggd viewer i GitHub och gists.
+  - Line och Cell magics.
+  - Shell anrop.
 - Lite mer advancerade funktioner
 - Jupyter Notebook Extensions? Eventuellt bara nämna utan att visa?
 - Hands on: Något lite mer advancerat?
