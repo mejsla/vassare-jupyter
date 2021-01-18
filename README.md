@@ -36,14 +36,14 @@ Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hand
   - Nämn något om att kernels finns för olika språk.
 - [Machine Learning miljö](Hardware.ipynb) Lars
   - 15 min.
-- [En första Machine Learning exempel](TODO.ipynb) Fredrik
+- [En första Machine Learning exempel](ml-example.ipynb) Fredrik
   - Visa katt & hund exemplet från boken, förklara en del.
   - 20 min.
 - [Pandas](TODO.ipynb) Lars
   - Nämner numpy och scipy i förbigående
   - Kanske en plot-del.
   - 20 min.
-- [Plottning med plotly](Plotly.ipynb) Fredrik
+- [Plottning med plotly](plotly.ipynb) Fredrik
   - 20 min.
 - [Pitcha studiecirkel](TODO.md) Lars
   - Fredrik ser till ett anmälningsformulär.
