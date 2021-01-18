@@ -18,29 +18,39 @@ Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hand
 
 ## Förslag på punkter
 
-- [Introduktion till Python](Python.ipynb)
-  - Ska installation av python vara del av detta (isf, ta höjd i tid för hjälp&felsökning), eller ska vi ta det som förkunskapskrav (inbjudan inte skickad än, bör göras under måndag)?
-  - Dela notebook och låta folk klicka sig genom exampel, och kanske instruera att göra någon ändring för att visa interaktivitet och uppmuntra experimentlusta vilket ju notebooks är bra för?
-- [Introduktion till Jupyter](INTRODUKTION.md)
-  - Vad är Jupyter Server och Notebook?
+- [Introduktion till Python](Python.ipynb) Lars
+  - Täcker installation av python.
+  - Dela notebook och låta folk klicka sig genom exampel.
+  - 30 min.
+- [Introduktion till Jupyter](INTRODUKTION.md) Fredrijk
+  - Backup för de som inte kan installera: Gå till https://colab.research.google.com/notebooks/intro.ipynb och klicka new notebook.
+  - Vad är Jupyter Server och Notebook? Nämn något om JupyterLab och Voilá.
   - Vi skärmdelar och deltagare får följa med.
   - Ta höjd i tid för problem med installation?
   - Vi skapar dokument från scratch, lite blandat hands on och genomgång.
   - Inbyggd viewer i GitHub och gists.
   - Line och Cell magics.
   - Shell anrop.
-- Lite mer advancerade funktioner
-- Jupyter Notebook Extensions? Eventuellt bara nämna utan att visa?
-- Hands on: Något lite mer advancerat?
-- Något om Numpy
-- Något om Pandas
-- Något om ML
-- Blandade tips/best practice?
-- Något om library för visualisering/grafer
-- Hands on: Applicera något av ovanstående
-- Något om Notebooks för fler språk än Python. Vad är en jupyter kernel?
-- Vad är projekt Jupyter och vilka projekt rymmer den (JupyterLab, Jupyter Notebook, jupyterhub, Voilà)
-- Presentera kommande studiecirkel.
+  - 30 min.
+  - Nämna i förbigående Jupyter Notebook extensions.
+  - Nämn något om att kernels finns för olika språk.
+- [Machine Learning miljö](Hardware.ipynb) Lars
+  - 15 min.
+- [En första Machine Learning exempel](TODO.ipynb) Fredrik
+  - Visa katt & hund exemplet från boken, förklara en del.
+  - 20 min.
+- [Pandas](TODO.ipynb) Lars
+  - Nämner numpy och scipy i förbigående
+  - Kanske en plot-del.
+  - 20 min.
+- [Plottning med plotly](Plotly.ipynb) Fredrik
+  - 20 min.
+- [Pitcha studiecirkel](TODO.md) Lars
+  - Fredrik ser till ett anmälningsformulär.
+  - 5 min.
+- ["Lab"](TODO.ipynb) Båda
+  - Utgå från tidigare visade exempel och expandera.
+  - 30 min.
 
 ## Resurser
 - https://www.dataquest.io/blog/jupyter-notebook-tutorial/
