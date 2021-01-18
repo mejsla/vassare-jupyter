@@ -22,7 +22,7 @@ Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hand
   - Täcker installation av python.
   - Dela notebook och låta folk klicka sig genom exampel.
   - 30 min.
-- [Introduktion till Jupyter](INTRODUKTION.md) Fredrijk
+- [Introduktion till Jupyter](INTRODUKTION.md) Fredrik
   - Backup för de som inte kan installera: Gå till https://colab.research.google.com/notebooks/intro.ipynb och klicka new notebook.
   - Vad är Jupyter Server och Notebook? Nämn något om JupyterLab och Voilá.
   - Vi skärmdelar och deltagare får följa med.
