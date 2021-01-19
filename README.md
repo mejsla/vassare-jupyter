@@ -38,6 +38,8 @@ Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hand
   - 15 min.
 - [En första Machine Learning exempel](ml-example.ipynb) Fredrik
   - Visa katt & hund exemplet från boken, förklara en del.
+  - Pitcha studiecirkel, dela länk i chat och berätta att vi även mailar ut länken till alla deltagare.
+  - Nämn studiecirkel när vi stöter på "magi", som i "det här är ett convolutional neural network - något som kommer att studeras i studiecirkeln"
   - 20 min.
 - [Pandas](TODO.ipynb) Lars
   - Nämner numpy och scipy i förbigående
@@ -45,10 +47,7 @@ Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hand
   - 20 min.
 - [Plottning med plotly](plotly.ipynb) Fredrik
   - 20 min.
-- [Pitcha studiecirkel](TODO.md) Lars
-  - Fredrik ser till ett anmälningsformulär.
-  - 5 min.
-- ["Lab"](TODO.ipynb) Båda
+- Lab Båda
   - Utgå från tidigare visade exempel och expandera.
   - 30 min.
 
