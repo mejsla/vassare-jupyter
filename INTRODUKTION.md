@@ -6,6 +6,8 @@ Jupyter Notebook kan beroende på kontext avse två saker:
 
 För tydlighets skull kommer vi här använda begreppet `Notebook Server` för webapplikationen, och `Notebook dokument` för filer med det aktuella filformatet.
 
+Vi kan också nämna att det finns något som heter `JupyterLab`, vilket är "nästa generation av `Notebook Server`, och `Voilá`, vilket är ett ramverk för att transformera en notebook till en webapplikation. Vi kommer inte gå in på dessa, men är man intresserad kan man läsa mer på hemsidan jupyter.org.
+
 ## Installera Notebook Server
 För att installera Notebook server, se till att ha Python 3 installerad och kör:
 
