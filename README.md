@@ -41,7 +41,7 @@ Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hand
   - Pitcha studiecirkel, dela länk i chat och berätta att vi även mailar ut länken till alla deltagare.
   - Nämn studiecirkel när vi stöter på "magi", som i "det här är ett convolutional neural network - något som kommer att studeras i studiecirkeln"
   - 20 min.
-- [Pandas](TODO.ipynb) Lars
+- [Pandas](Pandas.ipynb) Lars
   - Nämner numpy och scipy i förbigående
   - Kanske en plot-del.
   - 20 min.
