@@ -36,7 +36,7 @@ Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hand
   - Nämn något om att kernels finns för olika språk.
 - [Machine Learning miljö](Hardware.ipynb) Lars
   - 15 min.
-- [En första Machine Learning exempel](ml-example.ipynb) Fredrik
+- [Ett Machine Learning exempel](ml-example.ipynb) Fredrik
   - Visa katt & hund exemplet från boken, förklara en del.
   - Pitcha studiecirkel, dela länk i chat och berätta att vi även mailar ut länken till alla deltagare.
   - Nämn studiecirkel när vi stöter på "magi", som i "det här är ett convolutional neural network - något som kommer att studeras i studiecirkeln"
