@@ -1,2 +1,4 @@
 pygments >= 2.4.1
-
+pandas >= 1.2.0
+openpyxl >= 3.0.6
+matplotlib
