@@ -73,7 +73,7 @@ En viktig aspekt är följande:
 
 - Exekveringsordning spelar roll, och är inte nödvändigtvis i ordningen uppifrån och ner.
 - Vid experiment hoppar man ofta runt.
-- Bra praxis att avsluta att med kontroll att det går att köra i ordningen uppifrån och ner.
+- Bra praxis att avsluta med kontroll att det går att köra i ordningen uppifrån och ner.
 
 ## Edit och Command mode
 Editorn för en Notebook kan vara i två lägen:
