@@ -18,11 +18,11 @@ Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hand
 
 ## Förslag på punkter
 
-- [Introduktion till Python](Python.ipynb) Lars
+- [Introduktion till Python](Python.ipynb)
   - Täcker installation av python.
   - Dela notebook och låta folk klicka sig genom exampel.
   - 30 min.
-- [Introduktion till Jupyter](INTRODUKTION.md) Fredrik
+- [Introduktion till Jupyter](INTRODUKTION.md)
   - Backup för de som inte kan installera: Gå till https://colab.research.google.com/notebooks/intro.ipynb och klicka new notebook.
   - Vad är Jupyter Server och Notebook? Nämn något om JupyterLab och Voilá.
   - Vi skärmdelar och deltagare får följa med.
@@ -34,22 +34,16 @@ Tror vi oss kunna fylla tre timmar? To be decided shortly perhaps. Med lite hand
   - 30 min.
   - Nämna i förbigående Jupyter Notebook extensions.
   - Nämn något om att kernels finns för olika språk.
-- [Machine Learning miljö](Hardware.ipynb) Lars
+- [Machine Learning miljö](Hardware.ipynb)
   - 15 min.
-- [Ett Machine Learning exempel](ml-example.ipynb) Fredrik
+- [Ett Machine Learning exempel](ml-example.ipynb)
   - Visa katt & hund exemplet från boken, förklara en del.
   - Pitcha studiecirkel, dela länk i chat och berätta att vi även mailar ut länken till alla deltagare.
   - Nämn studiecirkel när vi stöter på "magi", som i "det här är ett convolutional neural network - något som kommer att studeras i studiecirkeln"
   - 20 min.
-- [Pandas](Pandas.ipynb) Lars
+- [Pandas](Pandas.ipynb)
   - Nämner numpy och scipy i förbigående
   - Kanske en plot-del.
   - 20 min.
-- [Plottning med plotly](plotly.ipynb) Fredrik
+- [Plottning med plotly](plotly.ipynb)
   - 20 min.
-- Lab Båda
-  - Utgå från tidigare visade exempel och expandera.
-  - 30 min.
-
-## Resurser
-- https://www.dataquest.io/blog/jupyter-notebook-tutorial/
