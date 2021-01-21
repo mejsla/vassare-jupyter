@@ -1,4 +1,6 @@
 ## Vad är Jupyter Notebook?
+Börja med att skärmdela hemsidan jupyter.org.
+
 Jupyter Notebook kan beroende på kontext avse två saker:
 
 - En webapplikation implementerad i Python för att redigare dokument innehållandes livekod, interaktiva widgets, ekvationer, visualiseringar och generell markdown.
@@ -6,16 +8,18 @@ Jupyter Notebook kan beroende på kontext avse två saker:
 
 För tydlighets skull kommer vi här använda begreppet `Notebook Server` för webapplikationen, och `Notebook dokument` för filer med det aktuella filformatet. Men i allmänhet, i artiklar och dokumentation på Internet, kan alltså `Jupyter` avse antingen applikationen eller dokumenten beroende på kontext.
 
-Vi kan också nämna att det finns något som heter `JupyterLab`, vilket är "nästa generation av `Notebook Server`, och `Voilá`, vilket är ett ramverk för att transformera en notebook till en webapplikation. Vi kommer inte gå in på dessa, men är man intresserad kan man läsa mer på hemsidan jupyter.org.
+`Jupyter` utvecklas av `Project Jupyter`, ett framgångsrikt open source projekt. Inom projektet (scrolla ner på hemsidan) finns ryms det också `JupyterLab`, vilket är "nästa generation av `Notebook Server` - ny backend, nytt gränssnitt och nya features, men grundläggande modell kommer vara kvar -  och `Voilá`, vilket är ett ramverk för att transformera en notebook till en webapplikation. Vi kommer inte gå in på dessa, men är man intresserad kan man läsa mer på hemsidan jupyter.org.
 
 ## Installera Notebook Server
+(Växla skärmdelning till terminal)
+
 För att installera Notebook server, se till att ha Python 3 installerad och kör:
 
 ```sh
 pip3 install notebook
 ```
 
-- Vänta in och hjälp folk här? Backup: https://notebooks.gesis.org/binder/v2/gh/mejsla/vassare-jupyter/HEAD?filepath=empty.ipynb
+Vänta folk? Erbjud backup-länk: https://notebooks.gesis.org/binder/v2/gh/mejsla/vassare-jupyter/HEAD?filepath=empty.ipynb
 
 ## Skapa ett första Notebook dokument
 Skapa och gå till en tom katalog:
