@@ -64,7 +64,7 @@ I det initiala dokument vi skapat finns initialt en tom kodcell. Fyll i python k
 
 Notera följande:
 
-- Medan koden körs markeras sektionen med `In [*]`.
+- Medan koden körs markeras sektionen med `In [*]` (med 1+2 var det för snabbt att se, men visa med `import time; time.sleep(10)`.
 - Output från koden syns sedan nedanför koden, i `Out`-sektionen.
 - Det visas en exekveringsordning (`In/Out [1]` här, eftersom det var första koden som kördes). 
 - Hade vi modifierat globalt scope, genom att t.ex. definiera top level variables eller importera beroenden, hade dessa varit gjorts tillgängliga för senare exekveringar.
