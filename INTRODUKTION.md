@@ -58,7 +58,7 @@ Ett Notebook dokument består av celler, som kan vara av två typer:
 - Celler innehållandes Markdown, som kan användas för formatterad text, bilder, videos och annat - i princip godtycklig HTML. 
 - Celler inehållandes exekverbar python kod, där output (som kan vara exempelvis text, tabeller, bilder, grafer, ...) från koden hamnar precis under. Man kan se skillnad på markdown och kod-celler genom att de för kod innehåller labels (`In [...]` och `Out [...]` till vänster), och markdown inte gör det.
 
-I det initiala dokument vi skapat finns initialt en tom kodcell. Fyll i python koden `2+1` i denna och tryck på `Play`-knappen (eller använd keyboard shortcut -  `Shift+Enter` på Windows+Linux, `Ctrl+Enter` på macOS) för att exekvera koden. Skärmen bör nu se ut som:
+I det initiala dokument vi skapat finns initialt en tom kodcell. Fyll i python koden `2+1` i denna och tryck på `Play`-knappen (eller använd keyboard shortcut -  `Shift/Ctrl/Cmd+Enter`) för att exekvera koden. Skärmen bör nu se ut som:
 
 ![Ett dokument där 2+1 precis körts](bilder/tva-plus-ett.png).
 
