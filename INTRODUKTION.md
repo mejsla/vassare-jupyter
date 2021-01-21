@@ -107,7 +107,7 @@ I Command mode:
 - `O` för att toggla ifall output för cellen ska visas.
 
 ## Snabb intro till markdown
-Visa snabbt grundläggande markdown (heading, lista, kod, bild), för de som inte är bekväma med markdown, och visar också hur markdown kan redigeras i jupyter?
+Visa snabbt grundläggande markdown (heading, lista, kod, länk till example.com, bild till `https://upload.wikimedia.org/wikipedia/commons/a/a3/June_odd-eyed-cat.jpg`), för de som inte är bekväma med markdown, och visar också hur markdown kan redigeras i jupyter. Rendera efter varje steg.
 
 - Precis som `Shift+Enter` kör en kod-cell, så "kör" det en markdown cell genom att gå från redigeringsläge till renderat läge. Tryck `Enter` eller dubbelklicka i cellen för att redigera cellen igen.
   - Vid initial laddning av dokument kommer alla markdown-celler vara i renderat läge - dokumentet kommer inte komma ihåg vilka celler som är i Edit mode.
