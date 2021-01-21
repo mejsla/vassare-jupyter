@@ -19,7 +19,7 @@ För att installera Notebook server, se till att ha Python 3 installerad och kö
 pip3 install notebook
 ```
 
-Vänta folk? Erbjud backup-länk: https://notebooks.gesis.org/binder/v2/gh/mejsla/vassare-jupyter/HEAD?filepath=empty.ipynb
+Vänta folk? Erbjud backup-länk: https://notebooks.gesis.org/binder/v2/gh/mejsla/vassare-jupyter/HEAD?filepath=empty.ipynb (det leder till tomt dokument - vi kommer dit strax, men ska först visa filhanterar-delen).
 
 ## Skapa ett första Notebook dokument
 Skapa och gå till en tom katalog:
