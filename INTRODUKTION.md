@@ -67,7 +67,7 @@ Notera följande:
 - Medan koden körs markeras sektionen med `In [*]` (med 1+2 var det för snabbt att se, men visa med `import time; time.sleep(10)`.
 - Output från koden syns sedan nedanför koden, i `Out`-sektionen.
 - Det visas en exekveringsordning (`In/Out [1]` här, eftersom det var första koden som kördes). 
-- Hade vi modifierat globalt scope, genom att t.ex. definiera top level variables eller importera beroenden, hade dessa varit gjorts tillgängliga för senare exekveringar.
+- Hade vi modifierat globalt scope, genom att t.ex. definiera top level variables eller importera beroenden, hade dessa varit gjorts tillgängliga för senare exekveringar. (visa genom att definiera `a=10` i en cell, och skriv ut den i nästa)
 
 En viktig aspekt är följande:
 
