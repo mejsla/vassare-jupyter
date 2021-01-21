@@ -34,7 +34,11 @@ Starta Notebook Server med: ```jupyter notebook```. Borde resultera i output som
 > Jupyter Notebook 6.2.0 is running at:
 > http://localhost:8888/?token=...
 
-Om webläsaren inte öppnats automatiskt, gå till `http://localhost:8888`. Borde se ut som nedan:
+Om webläsaren inte öppnats automatiskt, gå till `http://localhost:8888`.
+
+(Byt skärmdelning till browser)
+
+Borde se ut som nedan:
 
 ![Screenshot på Notebook Server i tom katalog](bilder/tom-notebook-server.png)
 
