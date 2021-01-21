@@ -4,7 +4,7 @@ Jupyter Notebook kan beroende på kontext avse två saker:
 - En webapplikation implementerad i Python för att redigare dokument innehållandes livekod, interaktiva widgets, ekvationer, visualiseringar och generell markdown.
 - De dokument som redigeras av ovanstående webapplikation.
 
-För tydlighets skull kommer vi här använda begreppet `Notebook Server` för webapplikationen, och `Notebook dokument` för filer med det aktuella filformatet.
+För tydlighets skull kommer vi här använda begreppet `Notebook Server` för webapplikationen, och `Notebook dokument` för filer med det aktuella filformatet. Men i allmänhet, i artiklar och dokumentation på Internet, kan alltså `Jupyter` avse antingen applikationen eller dokumenten beroende på kontext.
 
 Vi kan också nämna att det finns något som heter `JupyterLab`, vilket är "nästa generation av `Notebook Server`, och `Voilá`, vilket är ett ramverk för att transformera en notebook till en webapplikation. Vi kommer inte gå in på dessa, men är man intresserad kan man läsa mer på hemsidan jupyter.org.
 
